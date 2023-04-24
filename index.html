@@ -13,7 +13,7 @@ body{
 .teste1
 {
 color:white;
-font-size: 120%;
+font-size: 200%;
 display: flex;	
 justify-content: center;
 }    
@@ -26,19 +26,19 @@ color: white;
 .div2
 {
 color:white;
-font-size: 200%;
+font-size: 300%;
 display: flex;
 justify-content: center;
 font-family: tillana;
 text-align: center;	
-height: 0px;
+align-content: flex-start;
 }
 .div3
 {
-background-color: black;
 color: white;  
 display: center; 
-justify-content: center;
+justify-content: right;
+text-align:center;
 }
 .div4{
     font-size: large;
@@ -55,18 +55,27 @@ border: 2px solid black;
 box-shadow: 15px 15px 10px rgba(185, 134, 219, 0.822);
 margin: 10px;
 }
+
 h2{
 display: flex;
 color: white;
 justify-content: center;
 }
+
 button{
-background-color: rgb(49, 5, 49);
+background-color: rgb(148, 96, 218);
 border: none;
 padding: 15px;
 width: 100%;
 border-radius: 10px;
 color : white;
+cursor: pointer;
+margin: 3px;
+border: none;
+}
+
+button:hover{
+    background-color: rgb(191, 165, 216);
 }
 </style>
 </head>
@@ -89,24 +98,28 @@ color : white;
 </div>
 </div>
 
-
 <div class="div3">
-    <h3>Curso Desenvolvimento de Sistemas, pelo SENAI. </h3>
-    <br></br>
-       <h3>Também curso Ensino Médio Integrado (Técnico em administração).</h3>	
+    <h3>Atualmente curso Desenvolvimento de Sistemas, pelo SENAI. </h3>
+    <h3>Também curso o 3°ano do Ensino Médio Integrado (Técnico em administração).</h3>	
 
 </div>
 <hr color="purple"></hr>
-    <h2 class="div4">MEUS PROJETOS:
-        <br></br>
-    <a href="calculadora.html">
-        <button>calculadora</button>
-        <br></br>
-        <button>panfleto</button>
-        <a href="Panfleto.html"></h2>
+    <h2 class="div4">MEUS PROJETOS:</h2>
+    
+
+    <h2><a href="calculadora.html">
+    <button>calculadora</button></h2>
+    
+ 
+    <h2><a href="js-CERTO.html">
+    <button>tela de login</button></h2>
+
+    <h2><a href="Panfleto.html">
+    <button>panfleto</button></h2>
+    <br></br>
 
     <a href="http://www.instagram.com">
-    <h1 class="div4">@eumariahh__</h1></a>
+    <button>@eumariahh__</button></a>
 </div>
 </div>
 </body>
